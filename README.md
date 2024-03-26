@@ -8,24 +8,24 @@ Please place all pickle files into the `pickle` folder, and all PDF files into t
 
 
 ## Documents
+Meta data of `journals_all_time.pkl`, `retina_glaucoma_cataract.pkl` and `arvo_ap_survey.pkl`:
 ```
-Meta data of pickle files: journals_all_time.pkl, retina_glaucoma_cataract.pkl
-and arvo_ap_survey.pkl
-    {
-    "ID": {
-        "title": "String - The title of the document or article",
-        "abstract_text": "String - A brief summary of the document, can be empty",
-        "journal": "String - The name of the journal where the document was published",
-        "mesh_terms": [
-            "String - Medical Subject Headings (MeSH) terms related to the document"
-        ],
-        "doi": "String - The Digital Object Identifier for the document",
-        "year": "String - The year the document was published"
-    }
+{
+  "ID": {
+    "title": "String - The title of the document or article",
+    "abstract_text": "String - A brief summary of the document, can be empty",
+    "journal": "String - The name of the journal where the document was published",
+    "mesh_terms": [
+      "String - Medical Subject Headings (MeSH) terms related to the document"
+    ],
+    "doi": "String - The Digital Object Identifier for the document",
+    "year": "String - The year the document was published"
+  }
 }
+```
 
-Meta data of pickle files: eye_wiki
-
+Meta data of `eye_wiki.pkl`:
+```
 - Top-Level Categories: Dict - Includes various ophthalmology subfields such as Cataract Anterior Segment,
   Cornea External Disease, Glaucoma, etc.
 
