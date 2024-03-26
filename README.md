@@ -4,7 +4,7 @@
 ```
 pip install -r requirements.txt
 ```
-Please place all pickle files into the `pickle` folder, and all PDF files into the `pdf` folder, accordingly. Those files will be used to build index and saved in `storage` later.
+Please place all pickle files into the `./pickle` folder, and all PDF files into the `./pdf` folder, accordingly. Those files will be used to build index and saved in `./storage` later.
 
 
 ## Documents
@@ -40,7 +40,7 @@ authors, title, journal, and DOI for further reading.
 
 
 ## Build index
-Run `build_index.py` to build index from documents and save it in `storage`.
+Run `build_index.py` to build index from documents and save it in `./storage`.
 
 ## Query
 Run `query.py --similarity_top_k=10 --question="What causes eye strain?"` to retrieve answers with the top 10 selected references.
