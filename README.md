@@ -1,7 +1,14 @@
 # medical_rag_evidence
 
-Put all documents in the folder pickle or pdf depending on whether they are pickle files or pdf files.
+## Install dependencies
+```
+pip install -r requirements.txt
+```
 
-Run build_indexy.py to build index and save it in storage folder.
+Put all documents in the folder `pickle` or `pdf` depending on whether they are pickle files or pdf files.
 
-Run query.py to query answer with top 10 selected references.
+## Build index
+Run `build_index.py` to build index and save it in storage folder.
+
+## Query
+Run `query.py` to query answer with top 10 selected references.
