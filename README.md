@@ -26,14 +26,11 @@ Meta data of `journals_all_time.pkl`, `retina_glaucoma_cataract.pkl` and `arvo_a
 
 Meta data of `eye_wiki.pkl`:
 ```
-- Top-Level Categories: Dict - Includes various ophthalmology subfields such as Cataract Anterior Segment,
-  Cornea External Disease, Glaucoma, etc.
+- Top-Level Categories: Dict - Includes various ophthalmology subfields such as Cataract Anterior Segment, Cornea External Disease, Glaucoma, etc.
 
-- Subcategories Example: Dict - Contains specific topics like 
-  "A Review of Post-Operative Drops used in Cataract Surgery", "Aniridic Fibrosis Syndrome", etc.
+- Second-Level Categories: Dict - Includes specific topics like "A Review of Post-Operative Drops used in Cataract Surgery", "Aniridic Fibrosis Syndrome", etc.
   
-- Content Type: List - Each topic under subcategories is a list of explanations/references/citations providing detailed
-  information, e.g., authors, title, journal, and DOI for further reading.
+- Third-Level Categories: List - Each topic under second-level categories is a list of explanations/references/citations providing detailed information, e.g., authors, title, journal, and DOI for further reading.
 ```
 
 
