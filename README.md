@@ -4,7 +4,7 @@
 ```
 pip install -r requirements.txt
 ```
-Please place all pickle files into the 'pickle' folder, and all PDF files into the 'pdf' folder, accordingly. Those files will be used to build index and saved in `storage` later.
+Please place all pickle files into the `pickle` folder, and all PDF files into the `pdf` folder, accordingly. Those files will be used to build index and saved in `storage` later.
 
 
 ## Documents
