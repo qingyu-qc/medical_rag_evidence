@@ -39,7 +39,7 @@ Meta data of `eye_wiki.pkl`:
 
 
 ## Build index
-Run `build_index.py` to build index and save it in storage folder.
+Run `build_index.py` to build index from documents and save it in `storage`.
 
 ## Query
 Run `query.py` to retrieve answers with the top 10 selected references,
