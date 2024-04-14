@@ -31,4 +31,4 @@ Discription of `pubmed_abstract_sample.pkl`:
 Run `build_index.py` to build index from documents and save it in `./storage`.
 
 ## Query
-Run `query.py --similarity_top_k=10 --question="What causes eye strain?"` to retrieve answers with the top 10 selected references.
+Run `query.py --similarity_top_k=10 --question="How can diabetes affect my eyesight?"` to retrieve answers with the top 10 selected references.
