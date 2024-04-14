@@ -4,11 +4,11 @@
 ```
 pip install -r requirements.txt
 ```
-Please place all pickle files into the `./pickle` folder, and all PDF files into the `./pdf` folder, accordingly. Those files will be used to build index and saved in `./storage` later.
+Please place all pickle files into the `./pickle` folder. Those files will be used to build index and saved in `./storage` later.
 
 
 ## Documents
-Meta data of `journals_all_time.pkl`, `retina_glaucoma_cataract.pkl` and `arvo_ap_survey.pkl`:
+Discription of `pubmed_abstract_sample.pkl`:
 ```
 {
   "ID": {
