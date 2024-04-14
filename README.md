@@ -19,25 +19,13 @@ Meta data of `journals_all_time.pkl`, `retina_glaucoma_cataract.pkl` and `arvo_a
       "String - Medical Subject Headings (MeSH) terms related to the document"
     ],
     "doi": "String - The Digital Object Identifier for the document",
-    "year": "String - The year the document was published"
+    "year": "String - The year the document was published",
+    "authors": [
+      "String - Names of authors"
+    ]
   }
 }
 ```
-
-Meta data of `eye_wiki.pkl`:
-```
-- Top-Level Categories: Dict - Includes various ophthalmology subfields such as
-Cataract Anterior Segment, Cornea External Disease, Glaucoma, etc.
-
-- Second-Level Categories: Dict - Includes specific topics like
-"A Review of Post-Operative Drops used in Cataract Surgery", "Aniridic Fibrosis Syndrome", etc.
-  
-- Third-Level Categories: List - Each topic under second-level categories is a list of
-explanations/references/citations providing detailed information, e.g.,
-authors, title, journal, and DOI for further reading.
-```
-
-
 
 ## Build index
 Run `build_index.py` to build index from documents and save it in `./storage`.
