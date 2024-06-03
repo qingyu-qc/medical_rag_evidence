@@ -1,4 +1,4 @@
-# medical_rag_evidence
+# Enhancing Large Language Models with Domain-specific Retrieval Augment Generation: A Case Study on Long-form Consumer Health Question Answering in Ophthalmology
 
 ## Install dependencies
 ```
